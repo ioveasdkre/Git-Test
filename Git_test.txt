@@ -1,0 +1,5 @@
+git config --list 查詢資料
+
+新增資料
+git config --global user.email "你的email"
+git config --global user.name "你的姓名"

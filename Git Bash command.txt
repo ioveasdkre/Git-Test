@@ -1,0 +1,29 @@
+Git Bash 命令字元視窗
+
+git version 查詢 Git版本
+cd 路徑 例如：cd /c、cd '/c/Program Files' 移動路徑
+cd .. 回上一層路徑
+ls 顯示當層檔案(展開列表)
+
+touch 檔名.類型 新增檔案
+mkdir 檔名 新增資料夾
+git init 創建本地數據庫(儲存管控版本的紀錄)
+
+git add . 加入索引(確定索引OK，在執行 更新紀錄)
+git status 檢查狀態(檢查新增的檔案)
+git commit -m '更新紀錄名稱' 提交更新(更新紀錄)
+git log 查詢紀錄
+
+git reset HEAD 取消所有索引
+git reset HEAD 檔案名稱 單一取消索引
+git checkout 檔名 還原至上一次紀錄
+git reset --hard 全部還原
+
+git clone 網址(GitHub網址) 連結至 GitHub
+git push 上傳檔案至 GitHub(需再要上傳的專案當層資料夾執行)
+
+git branch 瀏覽目前分支(幾個分支)(master 目前最新分支點)
+git checkout 分支名稱(到其他分支)(master 主分支(原本分支))
+
+git branch 名稱 創建分支
+git merge 分支名稱 更新至分支狀態(需先至 master執行，或任意想同步相同狀態的分支)

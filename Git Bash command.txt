@@ -27,4 +27,4 @@ git checkout 分支名稱(到其他分支)(master 主分支(原本分支))
 
 git branch 名稱 創建分支
 git merge 分支名稱 更新至分支狀態(需先至 master執行，或任意想同步相同狀態的分支)
-git checkout -b feature/功能名稱
+git checkout -b feature/功能名稱  創建分支並切換至分支

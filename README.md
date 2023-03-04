@@ -17,8 +17,8 @@
 
 
 ##PR審核
-	git checkout 要檢查的分支代號
-	git chenkput 檢查完後回到原本分支
+	git checkout 							要檢查的分支代號
+	git chenkput 							檢查完後回到原本分支
 	通過 or 不通過 PR
 	若通過則需要遠端拉取倉庫同步至本地
 	git fetch origin main					更新遠端分支追蹤

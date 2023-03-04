@@ -11,7 +11,7 @@ git init 創建本地數據庫(儲存管控版本的紀錄)
 
 git add . 加入索引(確定索引OK，在執行 更新紀錄)
 git status 檢查狀態(檢查新增的檔案)
-git commit -m '更新紀錄名稱' 提交更新(更新紀錄)
+git commit -m 'update: 紀錄名稱' 提交更新(更新紀錄)
 git log 查詢紀錄
 
 git reset HEAD 取消所有索引
@@ -27,3 +27,4 @@ git checkout 分支名稱(到其他分支)(master 主分支(原本分支))
 
 git branch 名稱 創建分支
 git merge 分支名稱 更新至分支狀態(需先至 master執行，或任意想同步相同狀態的分支)
+git checkout -b feature/功能名稱
